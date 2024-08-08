@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Ordspel</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body 
+    {   
+        margin: 0; 
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        overflow: hidden;
+    }
+    html 
+    {
+        overflow: hidden;
+    }
+    canvas 
+    {       
+        display: block; 
+        margin: 0 auto; 
+        background: #EEE; 
+    }
+    * 
+    {
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Chrome/Safari/Opera */
+      -khtml-user-select: none; /* Konqueror */
+      -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently not supported by any browser */
+
+      -webkit-tap-highlight-color: transparent; /* disable iOS Safari tap effect */
+  }
+  </style>
+
+</head>
+
+<body>
+	<canvas id="gameCanvas" class="gameCanvas" width="580px" height="960px"></canvas>
+	<script type="text/javascript" src="dat.gui.min.js"></script>
+  <script type="text/javascript" src="swedishwordlist4.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

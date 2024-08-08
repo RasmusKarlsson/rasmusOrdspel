@@ -1,0 +1,7 @@
+html {
+  touch-action: manipulation;
+}
+
+.gameCanvas {
+  background-color: #2288CC;
+}
